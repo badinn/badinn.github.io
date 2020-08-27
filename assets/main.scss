@@ -1,0 +1,22 @@
+---
+---
+
+@import "minima";
+
+.post-list {
+    & > .post-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+
+        & > .post-header {
+            flex-grow: 1;
+            margin: 0;
+
+            & > .post-link {
+                display: inline-block;
+                font-size: 18px;
+            }
+        }
+    }
+}
