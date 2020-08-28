@@ -19,6 +19,14 @@ layout: default
     {{ content }}
   </div>
 
+  {%- if page.categories -%}
+    <div class="post-categories">
+    {%- for category in page.categories -%}
+      <span>{{ category }}</span>
+    {%- endfor -%}
+    </div>
+  {%- endif -%}
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}

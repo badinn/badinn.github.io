@@ -18,16 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: ahmet b.
+title: ahmet
 email: me@ahmetbadin.com
 description: >- # this means to ignore newlines until "baseurl:"
+  Personal Space
+footer_description: >-
   I'm a curious, communicative, resourceful and technology agnostic software developer
   and this is my very own personal space.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ahmetbadin.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  badinn
 linkedin_username: badin
-
+permalink: /read/:title:output_ext
+show_excerpts: true
 # Build settings
 theme: minima
 plugins:

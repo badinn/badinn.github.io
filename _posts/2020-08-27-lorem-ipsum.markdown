@@ -2,6 +2,8 @@
 layout: post
 title:  "Lorem Ipsum!"
 date:   2020-08-27 16:27:55 +0300
+lang: tr
+excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu tincidunt mi. Mauris sit amet aliquam lectus. In hac habitasse platea dictumst. Aenean nec tincidunt magna, nec vulputate neque.
 categories: jekyll update
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu tincidunt mi. Mauris sit amet aliquam lectus. In hac habitasse platea dictumst. Aenean nec tincidunt magna, nec vulputate neque. Curabitur elementum luctus odio, eu tincidunt mauris laoreet id. Ut eu nisl nec enim porttitor faucibus. Curabitur id nisi elit. Nullam rutrum congue tristique. Ut pellentesque id odio eget malesuada. Duis vel massa non orci pharetra auctor a et eros. Nullam eu placerat odio.
