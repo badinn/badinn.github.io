@@ -47,21 +47,29 @@
     }
 }
 
-.post-categories {
-    display: block;
+.post {
+    & > .post-content {
+        line-height: 1.8;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    
+    & > .post-categories {
+        display: block;
 
-    & > span {
-        display: inline-block;
-        padding: 2px 8px;
-        background-color: #ececec;
-        font-family: monospace;
-        font-size: 0.75rem;
-        font-weight: 800;
-        border-radius: 4px;
-        cursor: default;
+        & > span {
+            display: inline-block;
+            padding: 2px 8px;
+            background-color: #ececec;
+            font-family: monospace;
+            font-size: 0.75rem;
+            font-weight: 800;
+            border-radius: 4px;
+            cursor: default;
 
-        &:not(:last-child) {
-            margin-right: 15px;
+            &:not(:last-child) {
+                margin-right: 15px;
+            }
         }
     }
 }
