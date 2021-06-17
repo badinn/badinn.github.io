@@ -1,0 +1,11 @@
+- title: home
+  url: /
+  external: false
+
+- title: archive
+  url: /archive/
+  external: false
+
+# - title: works
+#   url: /works/
+#   external: false # set true if you using external link, see below
