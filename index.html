@@ -8,16 +8,19 @@
 <body>
     <h1>HTTP Request Details</h1>
 
-    <h2>Request Headers:</h2>
+    <h3>Request Headers:</h3>
     <pre id="headers"></pre>
 
-    <h2>Query Parameters:</h2>
+    <h3>Query Parameters:</h3>
     <pre id="queryParams"></pre>
 
     <script>
-        const headers = JSON.stringify(Object.fromEntries(new Headers(location.search).entries()), null, 2);
-        document.getElementById('headers').textContent = headers;
-      
+        try {
+            const headers = JSON.stringify(Object.fromEntries(new Headers(location.search).entries()), null, 2);
+            document.getElementById('headers').textContent = headers;
+        } catch {
+            // ignore
+        }
         const queryParams = JSON.stringify(Object.fromEntries(new URLSearchParams(location.search).entries()), null, 2);
         document.getElementById('queryParams').textContent = queryParams;
     </script>
